@@ -1,7 +1,5 @@
-// main function
 fun main() {
     val color: Color = Color.GREEN
-
     print("Position GREEN is ${color.ordinal}")
 }
 

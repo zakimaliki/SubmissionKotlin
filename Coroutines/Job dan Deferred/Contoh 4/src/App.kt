@@ -5,7 +5,6 @@ fun main() = runBlocking {
         delay(5000)
         println("Start new job!")
     }
-
     delay(2000)
     job.cancel()
     println("Cancelling job...")

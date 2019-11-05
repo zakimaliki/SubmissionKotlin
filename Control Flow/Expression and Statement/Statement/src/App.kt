@@ -1,9 +1,6 @@
-// main function
 fun main() {
-
     val value1 = 10
     val value2 = 10
-
     sum(value1, value2)
 }
 

@@ -1,7 +1,5 @@
-// main function
 fun main() {
     val color: Color = Color.GREEN
-
     when(color){
         Color.RED -> print("Color is Red")
         Color.BLUE -> print("Color is Blue")

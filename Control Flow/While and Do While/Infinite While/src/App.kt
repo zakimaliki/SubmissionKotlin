@@ -1,4 +1,3 @@
-// main function
 fun main() {
     var value = 'A'
     do {

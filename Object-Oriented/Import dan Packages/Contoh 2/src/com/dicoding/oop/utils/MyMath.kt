@@ -1,9 +1,7 @@
 package com.dicoding.oop.utils
 
 fun sayHello() = println("Hello From package utils")
-
-const val PI = 3.1415926535  // package level variable
-
+const val PI = 3.1415926535
 fun pow(number: Double, power: Double) : Double {
     var result = 1.0
     var counter = power
@@ -21,6 +19,5 @@ fun factorial(number: Double) : Double {
         result *= counter
         counter++
     }
-
     return result
 }

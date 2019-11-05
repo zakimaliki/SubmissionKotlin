@@ -10,7 +10,6 @@ class Animal{
         }
 }
 
-// main function
 fun main(){
     val dicodingCat = Animal()
     println("Nama: ${dicodingCat.name}" )

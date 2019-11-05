@@ -1,4 +1,3 @@
-// main function
 fun main() {
     val name = "Kotlin"
     val old = 19

@@ -4,13 +4,10 @@ fun main() {
             "London" to "England",
             "New Delhi" to "India"
     )
-
     println(capital["Jakarta"])
     println(capital.getValue("Jakarta"))
-
     val mapKeys = capital.keys
     val mapValues = capital.values
-
     println(mapKeys)
     println(mapValues)
 }

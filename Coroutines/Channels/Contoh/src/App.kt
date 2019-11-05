@@ -7,7 +7,6 @@ fun main() = runBlocking(CoroutineName("main")) {
         println("Sending from ${Thread.currentThread().name}")
         for (x in 1..5) channel.send(x * x)
     }
-
     repeat(5) { println(channel.receive()) }
     println("received in ${Thread.currentThread().name}")
 }

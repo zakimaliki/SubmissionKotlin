@@ -1,4 +1,3 @@
-// main function
 fun main() {
     val color: Color = Color.valueOf("RED")
     print("Color is $color")

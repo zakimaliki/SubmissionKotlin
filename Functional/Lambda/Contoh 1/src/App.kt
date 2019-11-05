@@ -1,4 +1,3 @@
-// main function
 fun main() {
     printMessage("Hello From Lambda")
 }

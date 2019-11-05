@@ -1,10 +1,8 @@
-// main function
 fun main() {
     val colors: Array<Color> = enumValues()
-    colors.forEach {color ->
-        println(color)
+    colors.forEach {
+        color->println(color)
     }
-
     val color: Color = enumValueOf("RED")
     println("Color is $color")
 }

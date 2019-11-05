@@ -1,4 +1,3 @@
-// main function
 fun main() {
     val fullName = getFullName(middle = " is " , first = "Kotlin", last = "Awesome")
     print(fullName)

@@ -1,4 +1,3 @@
-// main function
 fun main() {
     val value = 7
     val stringOfValue = when (value) {
@@ -19,6 +18,5 @@ fun main() {
             "value cannot be reached"
         }
     }
-
     println(stringOfValue)
 }

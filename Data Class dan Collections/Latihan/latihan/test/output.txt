@@ -1,4 +1,0 @@
-User
-Name: John
-Age: 23
-Address: St. Petersburg

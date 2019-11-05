@@ -1,4 +1,3 @@
-// main function
 fun main() {
     printResult(10 ,sum)
 }

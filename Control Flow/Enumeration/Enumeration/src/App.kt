@@ -1,4 +1,3 @@
-// main function
 fun main() {
     val color : Color = Color.RED
     print(color)

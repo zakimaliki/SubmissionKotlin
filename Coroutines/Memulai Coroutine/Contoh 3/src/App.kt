@@ -17,13 +17,10 @@ fun main() = runBlocking {
         val income = getIncome()
         println("Your profit is ${income - capital}")
     }
-
     val timeTwo = measureTimeMillis {
         val capital = async { getCapital() }
         val income = async { getIncome() }
         println("Your profit is ${income.await() - capital.await()}")
     }
-
     println("Completed in $timeOne ms vs $timeTwo ms")
-
 }

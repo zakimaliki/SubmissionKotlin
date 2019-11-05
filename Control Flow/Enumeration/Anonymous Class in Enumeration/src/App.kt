@@ -1,4 +1,3 @@
-// main function
 fun main() {
     val colorRed = Color.RED
     val colorGreen = Color.GREEN

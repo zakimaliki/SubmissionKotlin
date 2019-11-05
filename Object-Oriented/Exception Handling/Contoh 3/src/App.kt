@@ -1,10 +1,8 @@
 import kotlin.NumberFormatException
 
-// main function
 fun main() {
     val someStringValue: String? = null
     var someIntValue = 0
-
     try {
         someIntValue = someStringValue!!.toInt()
     } catch (e: NullPointerException) {

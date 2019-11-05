@@ -1,4 +1,3 @@
-// main function
 fun main() {
     val value: Int? = null
 

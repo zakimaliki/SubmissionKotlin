@@ -1,4 +1,3 @@
-// main function
 fun main() {
     val anyType : Any = 100L
     when(anyType){

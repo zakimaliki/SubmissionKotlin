@@ -1,11 +1,9 @@
-// main function
 fun main() {
     val message = buildString {
         append("Hello ")
         append("from ")
         append("lambda ")
     }
-
     println(message)
 }
 

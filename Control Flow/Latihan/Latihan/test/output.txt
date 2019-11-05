@@ -1,5 +1,0 @@
-result is 3
-result is 15
-result is 35
-result is 63
-result is 99

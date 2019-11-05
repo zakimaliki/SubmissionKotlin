@@ -7,5 +7,8 @@ class Animal{
 
 fun main(){
     val dicodingCat = Animal()
-    println("Nama: ${dicodingCat.name}, Berat: ${dicodingCat.weight}, Umur: ${dicodingCat.age}, mamalia: ${dicodingCat.isMammal}" )
+    println("Nama: ${dicodingCat.name}, " +
+            "Berat: ${dicodingCat.weight}, " +
+            "Umur: ${dicodingCat.age}, " +
+            "mamalia: ${dicodingCat.isMammal}" )
 }

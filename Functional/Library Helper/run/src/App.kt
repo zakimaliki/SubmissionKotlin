@@ -1,4 +1,3 @@
-// main function
 fun main() {
     val text = "Hello"
     val result = text.run {

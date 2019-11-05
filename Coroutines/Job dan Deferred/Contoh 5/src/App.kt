@@ -4,7 +4,6 @@ suspend fun getCapital(): Int {
     delay(1000L)
     return 50000
 }
-
 suspend fun getIncome(): Int {
     delay(1000L)
     return 75000

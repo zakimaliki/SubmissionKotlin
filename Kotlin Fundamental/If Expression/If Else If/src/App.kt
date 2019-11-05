@@ -1,4 +1,3 @@
-// main function
 fun main() {
     val officeOpen = 7
     val now = 7
@@ -10,6 +9,5 @@ fun main() {
     } else {
         "Office is closed"
     }
-
     print(office)
 }

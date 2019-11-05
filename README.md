@@ -1,2 +1,0 @@
-# Memulai-Pemrograman-dengan-Kotlin
- 

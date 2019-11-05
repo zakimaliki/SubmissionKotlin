@@ -1,13 +1,8 @@
-// Coming Soon
 fun main() {
     val stringResult = getResult("Kotlin")
     val intResult = getResult(100)
-
-    // TODO 2
     println(stringResult)
 }
-
-// TODO 1
 fun <T> getResult(args: T): Int {
     val x: Any
     if (args is Int)
@@ -16,6 +11,5 @@ fun <T> getResult(args: T): Int {
         x = args.length
     else
         x = 0
-
     return x
 }

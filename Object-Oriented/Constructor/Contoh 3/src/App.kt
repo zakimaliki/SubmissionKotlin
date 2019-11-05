@@ -18,8 +18,13 @@ class Animal(name: String, weight: Double, age: Int) {
 
 fun main() {
     val dicodingCat = Animal("Dicoding Miaw", 2.5, 2, true)
-    println("Nama: ${dicodingCat.name}, Berat: ${dicodingCat.weight}, Umur: ${dicodingCat.age}, mamalia: ${dicodingCat.isMammal}")
-
+    println("Nama: ${dicodingCat.name}, " +
+            "Berat: ${dicodingCat.weight}, " +
+            "Umur: ${dicodingCat.age}, " +
+            "mamalia: ${dicodingCat.isMammal}")
     val dicodingBird = Animal("Dicoding tweet", 0.5, 1)
-    println("Nama: ${dicodingBird.name}, Berat: ${dicodingBird.weight}, Umur: ${dicodingBird.age}, mamalia: ${dicodingBird.isMammal}")
+    println("Nama: ${dicodingBird.name}, " +
+            "Berat: ${dicodingBird.weight}, " +
+            "Umur: ${dicodingBird.age}, " +
+            "mamalia: ${dicodingBird.isMammal}")
 }
